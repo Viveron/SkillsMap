@@ -7,89 +7,125 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		036E9D3B7519CE86C10125A208FAC80B /* ReferenceLineDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CC22FF8C25966633FA9C586BF99F5B /* ReferenceLineDrawingView.swift */; };
-		0441B3E976E5F55E22731AECFF0DBA88 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0236231A5F7F81ACF06BC5A0662C423 /* Keychain.swift */; };
-		0487194051EB3C10200B3540D6C07240 /* UIStackView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38ABDEC6682DA3CD7E81820984871B75 /* UIStackView+Sweeter.swift */; };
-		0946C67113752681AE08DE8A10F93AF9 /* BarDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6314E5F5AADF9ED57C364423A30E3E58 /* BarDrawingLayer.swift */; };
-		099C8876CBC489317F0B16723E6D08D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3461C63A635534B5863746CF9DCBC09 /* Foundation.framework */; };
-		0CB9ADFAB8FB26E7C541BFC3EF6242BA /* Swift+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DA4ACE9A8E92D2D186C60E4A27A0BE /* Swift+Sweeter.swift */; };
-		0F07988A412687BBF4847C94B9881914 /* SweeterSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C0A5590195FEA5C460F2CB16D3DED3 /* SweeterSwift.framework */; };
-		159588D87774219475E3F0CF2A92F5E1 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3CF4D4B0AEA5120369BFEAE8BA98F9 /* RadioButton.swift */; };
-		2317B9C43F00359B56F8B62C002D6606 /* Plot.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E64DBF3A53E08259BB691ADCF22D5D /* Plot.swift */; };
-		246779ACB59DC826223BEB93461E9254 /* LabelPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811FF21B81C307BB12DFE826EF6F104E /* LabelPool.swift */; };
-		30BE1E043B22B684F17E86C1EE8A7E34 /* ScrollableGraphView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E15CE2370522E3B60C0C8A8C76952C5 /* ScrollableGraphView-dummy.m */; };
-		3D5A5F365D4B2237D8A2FE2114A283F1 /* Pods-SkillsMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BE93FC1E18875738E3513A53F159C2 /* Pods-SkillsMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46528DBC20DEA1859A64FFF2F143A17B /* DotPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6B8ECDA32F6A0B13DDF6C2397C5CBE /* DotPlot.swift */; };
-		4AEB48FE18565A59266480250E7C3FEA /* KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F295FA9545AA9E85B2AE2AED8FC1D8 /* KeychainAccess-dummy.m */; };
-		52C3EA5B5D8DFD524A187D475D8C1EC3 /* ScrollableGraphViewDrawingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF4C5FD541725455F933DB27CD19E53 /* ScrollableGraphViewDrawingDelegate.swift */; };
-		571C484E3AB41DC4929743B795118159 /* RadioGroup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A963B12A339C23030DA146CC71DDCBA9 /* RadioGroup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5ADEAD6FDC9495A469E50C5E1FDD51FD /* ScrollableGraphView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 611F629A59975F9971C6183687679481 /* ScrollableGraphView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		60E24CE3FB56707214689644BB4BA7B9 /* DotDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2D6DB6331F4DE847BA9D62838146DF /* DotDrawingLayer.swift */; };
-		6180E8574334499568A0F13DA71D51A8 /* NSManagedObjectContext+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE503A327003D7ECB7874DA43B39293 /* NSManagedObjectContext+Sweeter.swift */; };
-		683BF16B3C91A7B878072404BB283A9B /* UITextView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99173F6CF8ABC97F4E13E5B67302579E /* UITextView+Sweeter.swift */; };
-		6A461766D20DBF5B293B4629540EC4B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3461C63A635534B5863746CF9DCBC09 /* Foundation.framework */; };
-		75AE848A4AE0D786B1F7DD42B925DAF6 /* DateFormatter+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CFAD42E490367BA996CE1418F555E /* DateFormatter+Sweeter.swift */; };
-		75FD286DE06FDF353B2D773AF2405370 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3461C63A635534B5863746CF9DCBC09 /* Foundation.framework */; };
-		7BCDC386B6E997DED6BA1448C90634DF /* UIView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51A75D8ADD8078A5E3BDD0D55411B4 /* UIView+Sweeter.swift */; };
-		9550E3A25A4D4C0804921D6F59D10BC0 /* Codable+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EEE026825EED33C74D7B91BAE1F0B4 /* Codable+Sweeter.swift */; };
-		9D88FE16798477CC639A637B7C43925A /* LinePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E6459EF405984E69BE6DFFE93FF640 /* LinePlot.swift */; };
-		9EC4DC3F4A764364051BE6DB7FD72161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3461C63A635534B5863746CF9DCBC09 /* Foundation.framework */; };
-		A3796F30030FEFE0F57582811FA7645C /* String+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8561FE7E2D6A7A1ED4219DB590A68F11 /* String+Sweeter.swift */; };
-		AB6A50A7B7B699AD376C509514E93F26 /* NSAttributedString+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB961035D66A1B48F8B5A6F737A45AF3 /* NSAttributedString+Sweeter.swift */; };
-		B8323B244211D58B543B289DAAC5B586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3461C63A635534B5863746CF9DCBC09 /* Foundation.framework */; };
-		BA414A7E70DDF338FA0674DF7F240629 /* UIViewController+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DADD238B75B14397C85DBFCB268C8DC /* UIViewController+Sweeter.swift */; };
-		BAA618A84C49F5DAB7B8790B7D512E9C /* SweeterSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DEACFBC528EA9B11E42885E6D7EA1E3 /* SweeterSwift-dummy.m */; };
-		C44443267CDCB1892FB12CCF746A8BC8 /* Bundle+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC311433F86E9A098D0F8EB65462ECF /* Bundle+Sweeter.swift */; };
-		CD9BC66FEC32AE9D33EBC5AF863BCD18 /* GraphPointAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F2C7CA3D9DD9049ED24BC7AD6E0768 /* GraphPointAnimation.swift */; };
-		CEA3EC15DC618FEF7E120C37C1D96E76 /* RadioGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5ABB2888E590A39D25EDF598D59C15 /* RadioGroup.swift */; };
-		D193ABEC34A33EF781E14E8D7341FA5A /* GraphPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB8519A38BABF09551F16F856C04CF0 /* GraphPoint.swift */; };
-		D3938363A50DAC22B18755A3E6AFD6B9 /* ScrollableGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45E7C4508967B89B49CFAFCFBBB6A84 /* ScrollableGraphView.swift */; };
-		D752546B146AA4172B41599D23DF6F5D /* RadioGroup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6143AA69CACA8E45E2562B8515C4B5E /* RadioGroup-dummy.m */; };
-		D9B1F0D30604313E339EA1883D8C94B3 /* LineDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0281F385B1FCAC39203876EB7B71DD19 /* LineDrawingLayer.swift */; };
-		DF079ABE5920C64BB8E2E7210046E883 /* GradientDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3D9ED1DA9064EDA1B42DB772781321 /* GradientDrawingLayer.swift */; };
-		DFBDC3D1117AE867F0CF66B666B08548 /* UIApplication+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B430393171AF6284411EF7DFF1852838 /* UIApplication+Sweeter.swift */; };
-		E01A3696BE67EC08FA70C870EAFAFC24 /* ReferenceLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160AA40B5B584792D41F325F3846C6D4 /* ReferenceLines.swift */; };
-		E3FCB3008C7B029AF9CF634E2C083385 /* ScrollableGraphViewDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60428C7B2E351656FD568D008370BB97 /* ScrollableGraphViewDrawingLayer.swift */; };
-		E657BDC5EDAB515562729409A292732B /* BarPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892E4E24ABE2438FED2E5C39ECE7B71 /* BarPlot.swift */; };
-		EEADFC5C1C5EC6E3E20506B8E069931D /* KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA949C7D2050625ABC2AEC485CBFA147 /* KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF2798DCE7C925DF38A143F863FD64CE /* ScrollableGraphViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0254DB2280404C0EAF416EC935ADBF /* ScrollableGraphViewDataSource.swift */; };
-		EFB0F80D2F4756B811587AE4037A38CB /* FillDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08500294E12B3ED89B758EEFA0F4881 /* FillDrawingLayer.swift */; };
-		F34D7323590283A92F5915532EDECEDF /* Pods-SkillsMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B00D12D050613DC300D28FF1CCA2694 /* Pods-SkillsMap-dummy.m */; };
-		FB0CF5C4DAC94B0C38DE1EC1C2CA507B /* TimeInterval+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65052EF54079962385DA456CEB16E032 /* TimeInterval+Sweeter.swift */; };
-		FB169B8A73351BC6764A64CBB8B81CED /* NSObject+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B2A1892F4A743E2F340450D3F8F5B3 /* NSObject+Sweeter.swift */; };
-		FDBC90196266BDB954BC5D6B666CD41A /* SweeterSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F47C30CDE446AFDED802EA3A8A9B5A3D /* SweeterSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		036E9D3B7519CE86C10125A208FAC80B /* ReferenceLineDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A570D8E916B3051896CA8A96B8944B /* ReferenceLineDrawingView.swift */; };
+		0441B3E976E5F55E22731AECFF0DBA88 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48ED4C5B7579E1BC327E563714F08FB /* Keychain.swift */; };
+		0487194051EB3C10200B3540D6C07240 /* UIStackView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DC5313D57CDB736F5797029F61C94 /* UIStackView+Sweeter.swift */; };
+		0946C67113752681AE08DE8A10F93AF9 /* BarDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F334C5D75125A047DC4A019CE64EEC33 /* BarDrawingLayer.swift */; };
+		099C8876CBC489317F0B16723E6D08D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C037ACB37932CA3CD915ED30BF7F0B0D /* Foundation.framework */; };
+		0CB9ADFAB8FB26E7C541BFC3EF6242BA /* Swift+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D0CC28EC41BA6A356751BD5745D18C /* Swift+Sweeter.swift */; };
+		0F07988A412687BBF4847C94B9881914 /* SweeterSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9891412D635B54D832BC1D97EE4961 /* SweeterSwift.framework */; };
+		159588D87774219475E3F0CF2A92F5E1 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F13D088830E92AEE0321DF9D6A4779 /* RadioButton.swift */; };
+		2317B9C43F00359B56F8B62C002D6606 /* Plot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E36D28482048410135002399E99D178 /* Plot.swift */; };
+		246779ACB59DC826223BEB93461E9254 /* LabelPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5469C2B66D82DB75F1660D767D58482 /* LabelPool.swift */; };
+		30BE1E043B22B684F17E86C1EE8A7E34 /* ScrollableGraphView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 325FE57C1C8F77474E1CDB761E55C76B /* ScrollableGraphView-dummy.m */; };
+		46528DBC20DEA1859A64FFF2F143A17B /* DotPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A2186CAB36E35F0DCF262A031A0189 /* DotPlot.swift */; };
+		4A2D8E4BA4222581DB30A8693DD38882 /* KRActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF5EE9777870D8D1E4E493C2D9998A8 /* KRActivityIndicatorView-dummy.m */; };
+		4AEB48FE18565A59266480250E7C3FEA /* KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC03314E96AC8F017D92548E5C5C2757 /* KeychainAccess-dummy.m */; };
+		52C3EA5B5D8DFD524A187D475D8C1EC3 /* ScrollableGraphViewDrawingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A058DA46A453BF917D193C42AB1912D /* ScrollableGraphViewDrawingDelegate.swift */; };
+		540C19A8F3A5BC511A95732D0D3456E4 /* Pods-SkillsMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B00D12D050613DC300D28FF1CCA2694 /* Pods-SkillsMap-dummy.m */; };
+		571C484E3AB41DC4929743B795118159 /* RadioGroup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 755D6CD5B609D060B67D8AF8CAAA187C /* RadioGroup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5ADEAD6FDC9495A469E50C5E1FDD51FD /* ScrollableGraphView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0B93CA0AA04E4BF8BD329F511A72A6 /* ScrollableGraphView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60E24CE3FB56707214689644BB4BA7B9 /* DotDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C44D934097EF80CB72EEA67408786AB /* DotDrawingLayer.swift */; };
+		6175AF685E0002FAA4CC678BE48A8C10 /* KRProgressHUDIconType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7559FBF4FF3912AB3CED9CF419B76C16 /* KRProgressHUDIconType.swift */; };
+		6180E8574334499568A0F13DA71D51A8 /* NSManagedObjectContext+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159D1432EB4B82C8F0F9D0D7266C6790 /* NSManagedObjectContext+Sweeter.swift */; };
+		683BF16B3C91A7B878072404BB283A9B /* UITextView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86D065D774879E4DBF2A4445F99EF3D /* UITextView+Sweeter.swift */; };
+		6A461766D20DBF5B293B4629540EC4B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C037ACB37932CA3CD915ED30BF7F0B0D /* Foundation.framework */; };
+		6EC4962EF3B2C045E25CB1A392D175E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C037ACB37932CA3CD915ED30BF7F0B0D /* Foundation.framework */; };
+		71B31EDCC1ACA87CD0B5A8EDACDF1D03 /* KRProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C1E8A99BE01370B51BCF5AE72646A6E /* KRProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75AE848A4AE0D786B1F7DD42B925DAF6 /* DateFormatter+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67F138B072C26E7A0E6F4D4FC4265E /* DateFormatter+Sweeter.swift */; };
+		7BCDC386B6E997DED6BA1448C90634DF /* UIView+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262E3F3ED77E90321DD869477CF9D458 /* UIView+Sweeter.swift */; };
+		8691040C4144FF67AF097D34E7B4075A /* KRActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B04A1F9ABA4DC75451988C9254CE8D6 /* KRActivityIndicatorView.swift */; };
+		8F965F0161EB81C4C8228D10EDF56453 /* KRActivityIndicatorView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69BAEE8C1BE32071BA971C87402DF19 /* KRActivityIndicatorView.framework */; };
+		9550E3A25A4D4C0804921D6F59D10BC0 /* Codable+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639D77E3B05752C7F172EE5055328A0C /* Codable+Sweeter.swift */; };
+		98CC7BEAD7F982A0978939D804818C72 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722E50017540C4B5E2DAF81F0367E5D3 /* Extensions.swift */; };
+		9C8A12E79E63AA73FC25D6D536DDA89A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C037ACB37932CA3CD915ED30BF7F0B0D /* Foundation.framework */; };
+		9D88FE16798477CC639A637B7C43925A /* LinePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E621C2E08E42383FE9C5688239502A7 /* LinePlot.swift */; };
+		9EC4DC3F4A764364051BE6DB7FD72161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C037ACB37932CA3CD915ED30BF7F0B0D /* Foundation.framework */; };
+		A3796F30030FEFE0F57582811FA7645C /* String+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153D5C0AF37F498E7991356C9C7BCD95 /* String+Sweeter.swift */; };
+		AB6A50A7B7B699AD376C509514E93F26 /* NSAttributedString+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE521ED83319D168B578AB2CE22D6F9 /* NSAttributedString+Sweeter.swift */; };
+		B08BE67E2FAACEB75B2642DEA72EBAEC /* KRActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB61F2E764087E13F7E7AB4D9AA54D33 /* KRActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8323B244211D58B543B289DAAC5B586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C037ACB37932CA3CD915ED30BF7F0B0D /* Foundation.framework */; };
+		BA414A7E70DDF338FA0674DF7F240629 /* UIViewController+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365BFA8E12C0DB05D995EFA58684E05E /* UIViewController+Sweeter.swift */; };
+		BAA618A84C49F5DAB7B8790B7D512E9C /* SweeterSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AF7E7FFE1E0CA6437D884679991FF8 /* SweeterSwift-dummy.m */; };
+		C1295E98EFFD9626E5D50D96EF9E14BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C037ACB37932CA3CD915ED30BF7F0B0D /* Foundation.framework */; };
+		C218FE5D841254675FA809C980579D18 /* KRProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABEDCCA0F027CF5E2EC09AFBB7330CF1 /* KRProgressHUD-dummy.m */; };
+		C44443267CDCB1892FB12CCF746A8BC8 /* Bundle+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F4861E2E16E535B150CDB3A25889D2 /* Bundle+Sweeter.swift */; };
+		CD9BC66FEC32AE9D33EBC5AF863BCD18 /* GraphPointAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D596359D1197B4983BECA67D987F1 /* GraphPointAnimation.swift */; };
+		CEA3EC15DC618FEF7E120C37C1D96E76 /* RadioGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDD498284BF7AB96F28AA9C133170F7 /* RadioGroup.swift */; };
+		D0A665A78DA17DC6D4E13883245CAA3C /* InnerKRProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C7B26B38E42EECDCB2737056F24C159 /* InnerKRProgressHUD.swift */; };
+		D193ABEC34A33EF781E14E8D7341FA5A /* GraphPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C091BB25210B3144B38CF7136AEF5BF1 /* GraphPoint.swift */; };
+		D3938363A50DAC22B18755A3E6AFD6B9 /* ScrollableGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C9B5D680D8DF2A0923ADBD6F53D38 /* ScrollableGraphView.swift */; };
+		D752546B146AA4172B41599D23DF6F5D /* RadioGroup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA17608DA2D5486DBC7E0E342B5FE6C /* RadioGroup-dummy.m */; };
+		D9B1F0D30604313E339EA1883D8C94B3 /* LineDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFC2A72A9F0CF818CF787E69BC3E48 /* LineDrawingLayer.swift */; };
+		DBA00C6A264C2E09CA73D144B38CB16A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA62CED8DB37E475544FE20B84595236 /* Extensions.swift */; };
+		DF079ABE5920C64BB8E2E7210046E883 /* GradientDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE086D2E2878AF326829020798015AC2 /* GradientDrawingLayer.swift */; };
+		DFBDC3D1117AE867F0CF66B666B08548 /* UIApplication+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19597A83516F94AD42429AB163E27C9 /* UIApplication+Sweeter.swift */; };
+		E01A3696BE67EC08FA70C870EAFAFC24 /* ReferenceLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6065D057F8BE0264DB5C4EB8541A9392 /* ReferenceLines.swift */; };
+		E3FCB3008C7B029AF9CF634E2C083385 /* ScrollableGraphViewDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16579E5004F2FBB3A866D25461971480 /* ScrollableGraphViewDrawingLayer.swift */; };
+		E657BDC5EDAB515562729409A292732B /* BarPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23B48E120C6EBFA24450834C3D66E7C /* BarPlot.swift */; };
+		E9718C43F69A288F5BD246FB74FA3C20 /* Pods-SkillsMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BE93FC1E18875738E3513A53F159C2 /* Pods-SkillsMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC070297716F78F774EA722F417DD787 /* KRProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31CA72463555034027A9637275034F4 /* KRProgressHUD.swift */; };
+		EEADFC5C1C5EC6E3E20506B8E069931D /* KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA4BA17F2C2A9F6BFCEA301670881D3B /* KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF2798DCE7C925DF38A143F863FD64CE /* ScrollableGraphViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB06E3AC924D29B1AA71485DE807BC09 /* ScrollableGraphViewDataSource.swift */; };
+		EFB0F80D2F4756B811587AE4037A38CB /* FillDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3040AFD6D085D7993C021766C9BDDA6 /* FillDrawingLayer.swift */; };
+		F18FCAB8BC039DC8AC34B752FD1D7A42 /* KRProgressHUDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AD4A3FB94EA6FC22953166B895FBFB /* KRProgressHUDViewController.swift */; };
+		F64EAB10BAE213A7034C70C8CCAE2B44 /* KRActivityIndicatorViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8391C958F93EB3CF9E045DA4880929 /* KRActivityIndicatorViewStyle.swift */; };
+		FB0CF5C4DAC94B0C38DE1EC1C2CA507B /* TimeInterval+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD443FB23FF1B98566DA69A82D355CB0 /* TimeInterval+Sweeter.swift */; };
+		FB169B8A73351BC6764A64CBB8B81CED /* NSObject+Sweeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB0CF07DA415C957444E65C39B383A /* NSObject+Sweeter.swift */; };
+		FDBC90196266BDB954BC5D6B666CD41A /* SweeterSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E34D980E1B0C5DBA83C9AAE2578404B7 /* SweeterSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1F8211EC5D672CAF001E114E231A70E3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0140FFF6B6054D782B7D333CDD4E26D5;
-			remoteInfo = RadioGroup;
-		};
-		46A40A34A636B2A9244F978C68C59C0E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6819F499159C87193DDD7D51504DD6C1;
-			remoteInfo = SweeterSwift;
-		};
-		6AB78D9A8FEAED16BE6B17E5726ACCBA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 286B8AB3D8EF21F4A7B079A55DDA5790;
-			remoteInfo = ScrollableGraphView;
-		};
-		BAFAB5CC6B8031437631D72D99CCC99C /* PBXContainerItemProxy */ = {
+		2D9C9D7FA1F6D11F55FE823C0ED51596 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 615C831BCE925ED486B225B87E44926D;
 			remoteInfo = KeychainAccess;
 		};
+		43A2F711B226DDAFDFF5D55E717262C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 286B8AB3D8EF21F4A7B079A55DDA5790;
+			remoteInfo = ScrollableGraphView;
+		};
+		5F3A5DC7A94FF5FE690FD26A901C570F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F7A1E5A05AF87570E2873C5F725E2CB;
+			remoteInfo = KRActivityIndicatorView;
+		};
+		692F18B1938500CFE0CB6BE285B07714 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA4681533D6AA601F9C9E2A116B7472C;
+			remoteInfo = KRProgressHUD;
+		};
+		7168681C00825F8124ED602BFEA6D8D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0140FFF6B6054D782B7D333CDD4E26D5;
+			remoteInfo = RadioGroup;
+		};
+		82822D77608B3E7C5CBE6D93BEB2AC7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F7A1E5A05AF87570E2873C5F725E2CB;
+			remoteInfo = KRActivityIndicatorView;
+		};
 		EC139A382C070B4DE110335E7FD0C67D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6819F499159C87193DDD7D51504DD6C1;
+			remoteInfo = SweeterSwift;
+		};
+		FEB8B1BF413948D5AB125FB22A44D7D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -99,85 +135,117 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0281F385B1FCAC39203876EB7B71DD19 /* LineDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineDrawingLayer.swift; path = Classes/Drawing/LineDrawingLayer.swift; sourceTree = "<group>"; };
-		028C646CDC64242B5E59198E028D7BBC /* SweeterSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SweeterSwift.modulemap; sourceTree = "<group>"; };
-		0872DE41E962640E2230BF41A62AD83A /* KeychainAccess-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainAccess-Info.plist"; sourceTree = "<group>"; };
+		09B35B099D4C48D866101C29B9C83C6B /* SweeterSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SweeterSwift-prefix.pch"; sourceTree = "<group>"; };
+		0A058DA46A453BF917D193C42AB1912D /* ScrollableGraphViewDrawingDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphViewDrawingDelegate.swift; path = Classes/Protocols/ScrollableGraphViewDrawingDelegate.swift; sourceTree = "<group>"; };
 		0AF018CD89B79D17DAB0CE3510111144 /* RadioGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RadioGroup.framework; path = RadioGroup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C0254DB2280404C0EAF416EC935ADBF /* ScrollableGraphViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphViewDataSource.swift; path = Classes/Protocols/ScrollableGraphViewDataSource.swift; sourceTree = "<group>"; };
-		160AA40B5B584792D41F325F3846C6D4 /* ReferenceLines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReferenceLines.swift; path = Classes/Reference/ReferenceLines.swift; sourceTree = "<group>"; };
-		1892E4E24ABE2438FED2E5C39ECE7B71 /* BarPlot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPlot.swift; path = Classes/Plots/BarPlot.swift; sourceTree = "<group>"; };
-		19E70515C6303B86DDB7D2ECF4644BE5 /* ScrollableGraphView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScrollableGraphView.modulemap; sourceTree = "<group>"; };
+		0B04A1F9ABA4DC75451988C9254CE8D6 /* KRActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRActivityIndicatorView.swift; path = KRActivityIndicatorView/Classes/KRActivityIndicatorView.swift; sourceTree = "<group>"; };
+		153D5C0AF37F498E7991356C9C7BCD95 /* String+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Sweeter.swift"; path = "Source/String+Sweeter.swift"; sourceTree = "<group>"; };
+		159D1432EB4B82C8F0F9D0D7266C6790 /* NSManagedObjectContext+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSManagedObjectContext+Sweeter.swift"; path = "Source/NSManagedObjectContext+Sweeter.swift"; sourceTree = "<group>"; };
+		16579E5004F2FBB3A866D25461971480 /* ScrollableGraphViewDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphViewDrawingLayer.swift; path = Classes/Drawing/ScrollableGraphViewDrawingLayer.swift; sourceTree = "<group>"; };
 		1BB683446B162BBD028D3097C9F36E1F /* Pods-SkillsMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkillsMap.release.xcconfig"; sourceTree = "<group>"; };
-		1FB4D16BB0276D009859B5F55082FFB1 /* RadioGroup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RadioGroup.xcconfig; sourceTree = "<group>"; };
-		264C1156B1C3E78927EFF9375C673257 /* ScrollableGraphView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScrollableGraphView-Info.plist"; sourceTree = "<group>"; };
-		2C7E20855FCFF912F91151432703EBC6 /* KeychainAccess.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.xcconfig; sourceTree = "<group>"; };
-		31E6459EF405984E69BE6DFFE93FF640 /* LinePlot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinePlot.swift; path = Classes/Plots/LinePlot.swift; sourceTree = "<group>"; };
+		1C33CB84138510317C9CFF8E19C47C23 /* KRProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRProgressHUD.framework; path = KRProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A570D8E916B3051896CA8A96B8944B /* ReferenceLineDrawingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReferenceLineDrawingView.swift; path = Classes/Drawing/ReferenceLineDrawingView.swift; sourceTree = "<group>"; };
+		22AD4A3FB94EA6FC22953166B895FBFB /* KRProgressHUDViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUDViewController.swift; path = KRProgressHUD/Classes/KRProgressHUDViewController.swift; sourceTree = "<group>"; };
+		262E3F3ED77E90321DD869477CF9D458 /* UIView+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Sweeter.swift"; path = "Source/UIView+Sweeter.swift"; sourceTree = "<group>"; };
+		291E866FEE7110C829C5586FBA5AC90C /* RadioGroup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RadioGroup.xcconfig; sourceTree = "<group>"; };
+		2C44D934097EF80CB72EEA67408786AB /* DotDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotDrawingLayer.swift; path = Classes/Drawing/DotDrawingLayer.swift; sourceTree = "<group>"; };
+		2E3C4A88BC8E94795610BD909EC25BB0 /* RadioGroup-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RadioGroup-Info.plist"; sourceTree = "<group>"; };
 		31FF434687502F9AC5C53B51FB1BA53B /* Pods-SkillsMap-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkillsMap-Info.plist"; sourceTree = "<group>"; };
-		358FE2D8C479FE8FF98910265365035E /* SweeterSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SweeterSwift-Info.plist"; sourceTree = "<group>"; };
-		38ABDEC6682DA3CD7E81820984871B75 /* UIStackView+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+Sweeter.swift"; path = "Source/UIStackView+Sweeter.swift"; sourceTree = "<group>"; };
-		3DEACFBC528EA9B11E42885E6D7EA1E3 /* SweeterSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SweeterSwift-dummy.m"; sourceTree = "<group>"; };
-		3DF3A8444D8A0B6D229896D815053D95 /* SweeterSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SweeterSwift-prefix.pch"; sourceTree = "<group>"; };
-		3E2D6DB6331F4DE847BA9D62838146DF /* DotDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotDrawingLayer.swift; path = Classes/Drawing/DotDrawingLayer.swift; sourceTree = "<group>"; };
+		325FE57C1C8F77474E1CDB761E55C76B /* ScrollableGraphView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollableGraphView-dummy.m"; sourceTree = "<group>"; };
+		365BFA8E12C0DB05D995EFA58684E05E /* UIViewController+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Sweeter.swift"; path = "Source/UIViewController+Sweeter.swift"; sourceTree = "<group>"; };
 		40431CF85B0A6F62BCE4D71E1448AAC9 /* Pods-SkillsMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SkillsMap.modulemap"; sourceTree = "<group>"; };
-		485CFAD42E490367BA996CE1418F555E /* DateFormatter+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateFormatter+Sweeter.swift"; path = "Source/DateFormatter+Sweeter.swift"; sourceTree = "<group>"; };
-		4D3D9ED1DA9064EDA1B42DB772781321 /* GradientDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientDrawingLayer.swift; path = Classes/Drawing/GradientDrawingLayer.swift; sourceTree = "<group>"; };
-		4E51A75D8ADD8078A5E3BDD0D55411B4 /* UIView+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Sweeter.swift"; path = "Source/UIView+Sweeter.swift"; sourceTree = "<group>"; };
-		51C0A5590195FEA5C460F2CB16D3DED3 /* SweeterSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SweeterSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E15CE2370522E3B60C0C8A8C76952C5 /* ScrollableGraphView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ScrollableGraphView-dummy.m"; sourceTree = "<group>"; };
-		60428C7B2E351656FD568D008370BB97 /* ScrollableGraphViewDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphViewDrawingLayer.swift; path = Classes/Drawing/ScrollableGraphViewDrawingLayer.swift; sourceTree = "<group>"; };
-		611F629A59975F9971C6183687679481 /* ScrollableGraphView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableGraphView-umbrella.h"; sourceTree = "<group>"; };
-		623F3FD126E26B653AA73F12D954AEB6 /* SweeterSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SweeterSwift.xcconfig; sourceTree = "<group>"; };
-		6314E5F5AADF9ED57C364423A30E3E58 /* BarDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarDrawingLayer.swift; path = Classes/Drawing/BarDrawingLayer.swift; sourceTree = "<group>"; };
-		65052EF54079962385DA456CEB16E032 /* TimeInterval+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimeInterval+Sweeter.swift"; path = "Source/TimeInterval+Sweeter.swift"; sourceTree = "<group>"; };
-		6E84B51EC6ADB7FCD3702C1A09F01263 /* ScrollableGraphView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableGraphView-prefix.pch"; sourceTree = "<group>"; };
-		6F3CF4D4B0AEA5120369BFEAE8BA98F9 /* RadioButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadioButton.swift; path = Sources/RadioButton.swift; sourceTree = "<group>"; };
+		4050A8609EDBE535C3D1E09FD20EA82A /* KRProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		43F13D088830E92AEE0321DF9D6A4779 /* RadioButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadioButton.swift; path = Sources/RadioButton.swift; sourceTree = "<group>"; };
+		4BDD498284BF7AB96F28AA9C133170F7 /* RadioGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadioGroup.swift; path = Sources/RadioGroup.swift; sourceTree = "<group>"; };
+		4C1E8A99BE01370B51BCF5AE72646A6E /* KRProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		4F784DFFFF58050E256F433ABEE3717E /* SweeterSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SweeterSwift.xcconfig; sourceTree = "<group>"; };
+		52D08D8E24597B30497EF708432DBED2 /* KeychainAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-prefix.pch"; sourceTree = "<group>"; };
+		5AF5EE9777870D8D1E4E493C2D9998A8 /* KRActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		5B8DC5313D57CDB736F5797029F61C94 /* UIStackView+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStackView+Sweeter.swift"; path = "Source/UIStackView+Sweeter.swift"; sourceTree = "<group>"; };
+		5D9891412D635B54D832BC1D97EE4961 /* SweeterSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SweeterSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EE521ED83319D168B578AB2CE22D6F9 /* NSAttributedString+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Sweeter.swift"; path = "Source/NSAttributedString+Sweeter.swift"; sourceTree = "<group>"; };
+		6065D057F8BE0264DB5C4EB8541A9392 /* ReferenceLines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReferenceLines.swift; path = Classes/Reference/ReferenceLines.swift; sourceTree = "<group>"; };
+		639D77E3B05752C7F172EE5055328A0C /* Codable+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Codable+Sweeter.swift"; path = "Source/Codable+Sweeter.swift"; sourceTree = "<group>"; };
+		680203A3EF5A98C13086890006CD5D43 /* KeychainAccess-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainAccess-Info.plist"; sourceTree = "<group>"; };
+		6B7E74D6EC80B53F25D73EB073E1F130 /* KeychainAccess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainAccess.modulemap; sourceTree = "<group>"; };
+		6C0FBD325A01BE1F691181D1DE5D64C2 /* KRActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		6D9301FB9B2AA7B3A3CBECD8802E1236 /* ScrollableGraphView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollableGraphView.xcconfig; sourceTree = "<group>"; };
+		6E621C2E08E42383FE9C5688239502A7 /* LinePlot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinePlot.swift; path = Classes/Plots/LinePlot.swift; sourceTree = "<group>"; };
+		6F10A6E3BEDD354778A7607DD3B51281 /* RadioGroup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RadioGroup-prefix.pch"; sourceTree = "<group>"; };
+		722E50017540C4B5E2DAF81F0367E5D3 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = KRProgressHUD/Classes/Extensions.swift; sourceTree = "<group>"; };
+		7559FBF4FF3912AB3CED9CF419B76C16 /* KRProgressHUDIconType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUDIconType.swift; path = KRProgressHUD/Classes/KRProgressHUDIconType.swift; sourceTree = "<group>"; };
+		755D6CD5B609D060B67D8AF8CAAA187C /* RadioGroup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RadioGroup-umbrella.h"; sourceTree = "<group>"; };
+		75B55EFB3B12C56DBBE66A7B55A5FDD8 /* ScrollableGraphView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ScrollableGraphView-Info.plist"; sourceTree = "<group>"; };
 		76DF65FE7C994FDA332DA9748BF2B1CA /* Pods-SkillsMap-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkillsMap-frameworks.sh"; sourceTree = "<group>"; };
-		78CC22FF8C25966633FA9C586BF99F5B /* ReferenceLineDrawingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReferenceLineDrawingView.swift; path = Classes/Drawing/ReferenceLineDrawingView.swift; sourceTree = "<group>"; };
+		78F4861E2E16E535B150CDB3A25889D2 /* Bundle+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Sweeter.swift"; path = "Source/Bundle+Sweeter.swift"; sourceTree = "<group>"; };
 		7B00D12D050613DC300D28FF1CCA2694 /* Pods-SkillsMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SkillsMap-dummy.m"; sourceTree = "<group>"; };
-		7F040DF42A10514BA76F0EA58C216753 /* ScrollableGraphView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ScrollableGraphView.xcconfig; sourceTree = "<group>"; };
-		811FF21B81C307BB12DFE826EF6F104E /* LabelPool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelPool.swift; path = Classes/Reference/LabelPool.swift; sourceTree = "<group>"; };
-		8561FE7E2D6A7A1ED4219DB590A68F11 /* String+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Sweeter.swift"; path = "Source/String+Sweeter.swift"; sourceTree = "<group>"; };
-		89B2A1892F4A743E2F340450D3F8F5B3 /* NSObject+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Sweeter.swift"; path = "Source/NSObject+Sweeter.swift"; sourceTree = "<group>"; };
-		8A3ECCF850E87B0857491E16E066FED3 /* RadioGroup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RadioGroup.modulemap; sourceTree = "<group>"; };
-		8DADD238B75B14397C85DBFCB268C8DC /* UIViewController+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Sweeter.swift"; path = "Source/UIViewController+Sweeter.swift"; sourceTree = "<group>"; };
-		9728F4E87C0F6603117380682FF4BB5E /* KeychainAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-prefix.pch"; sourceTree = "<group>"; };
-		99173F6CF8ABC97F4E13E5B67302579E /* UITextView+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+Sweeter.swift"; path = "Source/UITextView+Sweeter.swift"; sourceTree = "<group>"; };
+		7C7B26B38E42EECDCB2737056F24C159 /* InnerKRProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InnerKRProgressHUD.swift; path = KRProgressHUD/Classes/InnerKRProgressHUD.swift; sourceTree = "<group>"; };
+		7C8391C958F93EB3CF9E045DA4880929 /* KRActivityIndicatorViewStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRActivityIndicatorViewStyle.swift; path = KRActivityIndicatorView/Classes/KRActivityIndicatorViewStyle.swift; sourceTree = "<group>"; };
+		7D15D65E2AD4ED94300D122C1134642F /* KRProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRProgressHUD.xcconfig; sourceTree = "<group>"; };
+		7DFCA7EF91742077B9F2403D6B289FD5 /* SweeterSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SweeterSwift-Info.plist"; sourceTree = "<group>"; };
+		8BD7648301B547A365B64F0E15D858ED /* ScrollableGraphView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ScrollableGraphView.modulemap; sourceTree = "<group>"; };
+		9258ECC23A4C8B0274C7A6DF69DDFE95 /* KRActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRActivityIndicatorView.framework; path = KRActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C1315A5CA7A22252DDC1205AD13925 /* KRProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRProgressHUD.modulemap; sourceTree = "<group>"; };
 		99BAAECDB80FFA415E210CEC6619A454 /* ScrollableGraphView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ScrollableGraphView.framework; path = ScrollableGraphView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AB8519A38BABF09551F16F856C04CF0 /* GraphPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphPoint.swift; path = Classes/Plots/Animation/GraphPoint.swift; sourceTree = "<group>"; };
-		9CF4C5FD541725455F933DB27CD19E53 /* ScrollableGraphViewDrawingDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphViewDrawingDelegate.swift; path = Classes/Protocols/ScrollableGraphViewDrawingDelegate.swift; sourceTree = "<group>"; };
+		9B80044EED76CFE0B6E0465261371D86 /* ScrollableGraphView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableGraphView-prefix.pch"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3461C63A635534B5863746CF9DCBC09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A5EEE026825EED33C74D7B91BAE1F0B4 /* Codable+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Codable+Sweeter.swift"; path = "Source/Codable+Sweeter.swift"; sourceTree = "<group>"; };
-		A7F295FA9545AA9E85B2AE2AED8FC1D8 /* KeychainAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainAccess-dummy.m"; sourceTree = "<group>"; };
-		A963B12A339C23030DA146CC71DDCBA9 /* RadioGroup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RadioGroup-umbrella.h"; sourceTree = "<group>"; };
-		AB6B8ECDA32F6A0B13DDF6C2397C5CBE /* DotPlot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotPlot.swift; path = Classes/Plots/DotPlot.swift; sourceTree = "<group>"; };
-		B08500294E12B3ED89B758EEFA0F4881 /* FillDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillDrawingLayer.swift; path = Classes/Drawing/FillDrawingLayer.swift; sourceTree = "<group>"; };
-		B430393171AF6284411EF7DFF1852838 /* UIApplication+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Sweeter.swift"; path = "Source/UIApplication+Sweeter.swift"; sourceTree = "<group>"; };
-		B55D74A96985B768B94047552BB122BD /* RadioGroup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RadioGroup-prefix.pch"; sourceTree = "<group>"; };
+		9E36D28482048410135002399E99D178 /* Plot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Plot.swift; path = Classes/Plots/Plot.swift; sourceTree = "<group>"; };
+		A91C9B5D680D8DF2A0923ADBD6F53D38 /* ScrollableGraphView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphView.swift; path = Classes/ScrollableGraphView.swift; sourceTree = "<group>"; };
+		AAF24930CF4CA55B373F0045867F9D32 /* KRProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KRProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		ABEDCCA0F027CF5E2EC09AFBB7330CF1 /* KRProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		AC03314E96AC8F017D92548E5C5C2757 /* KeychainAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainAccess-dummy.m"; sourceTree = "<group>"; };
+		AC5D596359D1197B4983BECA67D987F1 /* GraphPointAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphPointAnimation.swift; path = Classes/Plots/Animation/GraphPointAnimation.swift; sourceTree = "<group>"; };
+		B0A2186CAB36E35F0DCF262A031A0189 /* DotPlot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotPlot.swift; path = Classes/Plots/DotPlot.swift; sourceTree = "<group>"; };
 		B76CD9F952582A6A4387D799501B3950 /* SweeterSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SweeterSwift.framework; path = SweeterSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0236231A5F7F81ACF06BC5A0662C423 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Lib/KeychainAccess/Keychain.swift; sourceTree = "<group>"; };
-		C10B58A4047BDCC1AEE6F194B5604D78 /* RadioGroup-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RadioGroup-Info.plist"; sourceTree = "<group>"; };
-		C1918007038E200D20DE4C00B3C19E62 /* KeychainAccess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainAccess.modulemap; sourceTree = "<group>"; };
+		B7AF7E7FFE1E0CA6437D884679991FF8 /* SweeterSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SweeterSwift-dummy.m"; sourceTree = "<group>"; };
+		B86B9BD50543152F15029273842C3D39 /* KRActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		B8EFC2A72A9F0CF818CF787E69BC3E48 /* LineDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineDrawingLayer.swift; path = Classes/Drawing/LineDrawingLayer.swift; sourceTree = "<group>"; };
+		B9D90FB3C68DB708BA614DFE07F24A0C /* KeychainAccess.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.xcconfig; sourceTree = "<group>"; };
+		BB61F2E764087E13F7E7AB4D9AA54D33 /* KRActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		BCA17608DA2D5486DBC7E0E342B5FE6C /* RadioGroup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RadioGroup-dummy.m"; sourceTree = "<group>"; };
+		BD443FB23FF1B98566DA69A82D355CB0 /* TimeInterval+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimeInterval+Sweeter.swift"; path = "Source/TimeInterval+Sweeter.swift"; sourceTree = "<group>"; };
+		C037ACB37932CA3CD915ED30BF7F0B0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C091BB25210B3144B38CF7136AEF5BF1 /* GraphPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphPoint.swift; path = Classes/Plots/Animation/GraphPoint.swift; sourceTree = "<group>"; };
+		C3040AFD6D085D7993C021766C9BDDA6 /* FillDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FillDrawingLayer.swift; path = Classes/Drawing/FillDrawingLayer.swift; sourceTree = "<group>"; };
 		C40E8B4A7CF23D060B8F94EBB5E906EB /* Pods-SkillsMap-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkillsMap-acknowledgements.plist"; sourceTree = "<group>"; };
-		C45E7C4508967B89B49CFAFCFBBB6A84 /* ScrollableGraphView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphView.swift; path = Classes/ScrollableGraphView.swift; sourceTree = "<group>"; };
+		C48ED4C5B7579E1BC327E563714F08FB /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Lib/KeychainAccess/Keychain.swift; sourceTree = "<group>"; };
 		C5BE93FC1E18875738E3513A53F159C2 /* Pods-SkillsMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SkillsMap-umbrella.h"; sourceTree = "<group>"; };
-		C9F2C7CA3D9DD9049ED24BC7AD6E0768 /* GraphPointAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphPointAnimation.swift; path = Classes/Plots/Animation/GraphPointAnimation.swift; sourceTree = "<group>"; };
-		CB5ABB2888E590A39D25EDF598D59C15 /* RadioGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadioGroup.swift; path = Sources/RadioGroup.swift; sourceTree = "<group>"; };
 		CD08E62EFC1D552BE046C0F1F54AB126 /* Pods-SkillsMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkillsMap.debug.xcconfig"; sourceTree = "<group>"; };
-		D6143AA69CACA8E45E2562B8515C4B5E /* RadioGroup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RadioGroup-dummy.m"; sourceTree = "<group>"; };
+		CEAB0CF07DA415C957444E65C39B383A /* NSObject+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Sweeter.swift"; path = "Source/NSObject+Sweeter.swift"; sourceTree = "<group>"; };
+		D23B48E120C6EBFA24450834C3D66E7C /* BarPlot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPlot.swift; path = Classes/Plots/BarPlot.swift; sourceTree = "<group>"; };
+		D31CA72463555034027A9637275034F4 /* KRProgressHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KRProgressHUD.swift; path = KRProgressHUD/Classes/KRProgressHUD.swift; sourceTree = "<group>"; };
+		D5D0CC28EC41BA6A356751BD5745D18C /* Swift+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Swift+Sweeter.swift"; path = "Source/Swift+Sweeter.swift"; sourceTree = "<group>"; };
+		D69BAEE8C1BE32071BA971C87402DF19 /* KRActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86D065D774879E4DBF2A4445F99EF3D /* UITextView+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+Sweeter.swift"; path = "Source/UITextView+Sweeter.swift"; sourceTree = "<group>"; };
+		DB06E3AC924D29B1AA71485DE807BC09 /* ScrollableGraphViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollableGraphViewDataSource.swift; path = Classes/Protocols/ScrollableGraphViewDataSource.swift; sourceTree = "<group>"; };
+		DCB902FE8A94B9B1DD01816485498476 /* RadioGroup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RadioGroup.modulemap; sourceTree = "<group>"; };
+		DE086D2E2878AF326829020798015AC2 /* GradientDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientDrawingLayer.swift; path = Classes/Drawing/GradientDrawingLayer.swift; sourceTree = "<group>"; };
+		DF2FBF2D7E1361B64EC3C31806934416 /* SweeterSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SweeterSwift.modulemap; sourceTree = "<group>"; };
+		E34D980E1B0C5DBA83C9AAE2578404B7 /* SweeterSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SweeterSwift-umbrella.h"; sourceTree = "<group>"; };
+		E5469C2B66D82DB75F1660D767D58482 /* LabelPool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LabelPool.swift; path = Classes/Reference/LabelPool.swift; sourceTree = "<group>"; };
 		E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainAccess.framework; path = KeychainAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB961035D66A1B48F8B5A6F737A45AF3 /* NSAttributedString+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Sweeter.swift"; path = "Source/NSAttributedString+Sweeter.swift"; sourceTree = "<group>"; };
+		EA0B93CA0AA04E4BF8BD329F511A72A6 /* ScrollableGraphView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ScrollableGraphView-umbrella.h"; sourceTree = "<group>"; };
+		ED67F138B072C26E7A0E6F4D4FC4265E /* DateFormatter+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateFormatter+Sweeter.swift"; path = "Source/DateFormatter+Sweeter.swift"; sourceTree = "<group>"; };
 		F013FBD711743349C28EB0FBF3F8FF94 /* Pods_SkillsMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SkillsMap.framework; path = "Pods-SkillsMap.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F47C30CDE446AFDED802EA3A8A9B5A3D /* SweeterSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SweeterSwift-umbrella.h"; sourceTree = "<group>"; };
+		F19597A83516F94AD42429AB163E27C9 /* UIApplication+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Sweeter.swift"; path = "Source/UIApplication+Sweeter.swift"; sourceTree = "<group>"; };
+		F334C5D75125A047DC4A019CE64EEC33 /* BarDrawingLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarDrawingLayer.swift; path = Classes/Drawing/BarDrawingLayer.swift; sourceTree = "<group>"; };
+		F36F58C3BCFF94C7E6F4C06050A5DED4 /* KRActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
 		F57942AC76BD504F48A1217E244F28B7 /* Pods-SkillsMap-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkillsMap-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F6DA4ACE9A8E92D2D186C60E4A27A0BE /* Swift+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Swift+Sweeter.swift"; path = "Source/Swift+Sweeter.swift"; sourceTree = "<group>"; };
-		F8E64DBF3A53E08259BB691ADCF22D5D /* Plot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Plot.swift; path = Classes/Plots/Plot.swift; sourceTree = "<group>"; };
-		FA949C7D2050625ABC2AEC485CBFA147 /* KeychainAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-umbrella.h"; sourceTree = "<group>"; };
-		FBC311433F86E9A098D0F8EB65462ECF /* Bundle+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Sweeter.swift"; path = "Source/Bundle+Sweeter.swift"; sourceTree = "<group>"; };
-		FCE503A327003D7ECB7874DA43B39293 /* NSManagedObjectContext+Sweeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSManagedObjectContext+Sweeter.swift"; path = "Source/NSManagedObjectContext+Sweeter.swift"; sourceTree = "<group>"; };
+		F6F925AD6D9A5F687A886C192AE036BF /* KRActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KRActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
+		FA4BA17F2C2A9F6BFCEA301670881D3B /* KeychainAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-umbrella.h"; sourceTree = "<group>"; };
+		FA62CED8DB37E475544FE20B84595236 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = KRActivityIndicatorView/Classes/Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		14E074A45A6B1D44B044DC67B5FD56CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8A12E79E63AA73FC25D6D536DDA89A /* Foundation.framework in Frameworks */,
+				8F965F0161EB81C4C8228D10EDF56453 /* KRActivityIndicatorView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3049131F685E1B6731EB8CE007A48C89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -187,19 +255,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4865092D2B566B87BFDF0AD907D18DF6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				75FD286DE06FDF353B2D773AF2405370 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7668D0A8468B5894E555ECAA4EC50BC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9EC4DC3F4A764364051BE6DB7FD72161 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1A63B255B97C79B781E519412FE23E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1295E98EFFD9626E5D50D96EF9E14BA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,105 +287,138 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FA43128EEFBEB4BFCF8BFEA0F4AC6820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC4962EF3B2C045E25CB1A392D175E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B3C28D9C44A94B03B336938781A404A /* Support Files */ = {
+		09301A0E514FB74D889C81FE87024F36 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C1918007038E200D20DE4C00B3C19E62 /* KeychainAccess.modulemap */,
-				2C7E20855FCFF912F91151432703EBC6 /* KeychainAccess.xcconfig */,
-				A7F295FA9545AA9E85B2AE2AED8FC1D8 /* KeychainAccess-dummy.m */,
-				0872DE41E962640E2230BF41A62AD83A /* KeychainAccess-Info.plist */,
-				9728F4E87C0F6603117380682FF4BB5E /* KeychainAccess-prefix.pch */,
-				FA949C7D2050625ABC2AEC485CBFA147 /* KeychainAccess-umbrella.h */,
+				6B7E74D6EC80B53F25D73EB073E1F130 /* KeychainAccess.modulemap */,
+				B9D90FB3C68DB708BA614DFE07F24A0C /* KeychainAccess.xcconfig */,
+				AC03314E96AC8F017D92548E5C5C2757 /* KeychainAccess-dummy.m */,
+				680203A3EF5A98C13086890006CD5D43 /* KeychainAccess-Info.plist */,
+				52D08D8E24597B30497EF708432DBED2 /* KeychainAccess-prefix.pch */,
+				FA4BA17F2C2A9F6BFCEA301670881D3B /* KeychainAccess-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/KeychainAccess";
 			sourceTree = "<group>";
 		};
-		341E83D6AEAC7081E4AB039AA2BC0FAA /* iOS */ = {
+		1687ED7FAB92D26E0F5B7631DB1E096F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				A3461C63A635534B5863746CF9DCBC09 /* Foundation.framework */,
+				C037ACB37932CA3CD915ED30BF7F0B0D /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		3C240D6665F81C4D00D1826495199E5B /* SweeterSwift */ = {
+		349B2B2A59895A55E647C2EAE259FF5A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FBC311433F86E9A098D0F8EB65462ECF /* Bundle+Sweeter.swift */,
-				A5EEE026825EED33C74D7B91BAE1F0B4 /* Codable+Sweeter.swift */,
-				485CFAD42E490367BA996CE1418F555E /* DateFormatter+Sweeter.swift */,
-				EB961035D66A1B48F8B5A6F737A45AF3 /* NSAttributedString+Sweeter.swift */,
-				FCE503A327003D7ECB7874DA43B39293 /* NSManagedObjectContext+Sweeter.swift */,
-				89B2A1892F4A743E2F340450D3F8F5B3 /* NSObject+Sweeter.swift */,
-				8561FE7E2D6A7A1ED4219DB590A68F11 /* String+Sweeter.swift */,
-				F6DA4ACE9A8E92D2D186C60E4A27A0BE /* Swift+Sweeter.swift */,
-				65052EF54079962385DA456CEB16E032 /* TimeInterval+Sweeter.swift */,
-				B430393171AF6284411EF7DFF1852838 /* UIApplication+Sweeter.swift */,
-				38ABDEC6682DA3CD7E81820984871B75 /* UIStackView+Sweeter.swift */,
-				99173F6CF8ABC97F4E13E5B67302579E /* UITextView+Sweeter.swift */,
-				4E51A75D8ADD8078A5E3BDD0D55411B4 /* UIView+Sweeter.swift */,
-				8DADD238B75B14397C85DBFCB268C8DC /* UIViewController+Sweeter.swift */,
-				4D74DFA0D8FF4D49614B0F458834540F /* Support Files */,
-			);
-			name = SweeterSwift;
-			path = SweeterSwift;
-			sourceTree = "<group>";
-		};
-		4D74DFA0D8FF4D49614B0F458834540F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				028C646CDC64242B5E59198E028D7BBC /* SweeterSwift.modulemap */,
-				623F3FD126E26B653AA73F12D954AEB6 /* SweeterSwift.xcconfig */,
-				3DEACFBC528EA9B11E42885E6D7EA1E3 /* SweeterSwift-dummy.m */,
-				358FE2D8C479FE8FF98910265365035E /* SweeterSwift-Info.plist */,
-				3DF3A8444D8A0B6D229896D815053D95 /* SweeterSwift-prefix.pch */,
-				F47C30CDE446AFDED802EA3A8A9B5A3D /* SweeterSwift-umbrella.h */,
+				8BD7648301B547A365B64F0E15D858ED /* ScrollableGraphView.modulemap */,
+				6D9301FB9B2AA7B3A3CBECD8802E1236 /* ScrollableGraphView.xcconfig */,
+				325FE57C1C8F77474E1CDB761E55C76B /* ScrollableGraphView-dummy.m */,
+				75B55EFB3B12C56DBBE66A7B55A5FDD8 /* ScrollableGraphView-Info.plist */,
+				9B80044EED76CFE0B6E0465261371D86 /* ScrollableGraphView-prefix.pch */,
+				EA0B93CA0AA04E4BF8BD329F511A72A6 /* ScrollableGraphView-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SweeterSwift";
+			path = "../Target Support Files/ScrollableGraphView";
 			sourceTree = "<group>";
 		};
-		4F3FB6AC2A1E179C4E44422C44F0D16F /* ScrollableGraphView */ = {
+		486D42E60985CB24EDF794E50C7186D9 /* KeychainAccess */ = {
 			isa = PBXGroup;
 			children = (
-				6314E5F5AADF9ED57C364423A30E3E58 /* BarDrawingLayer.swift */,
-				1892E4E24ABE2438FED2E5C39ECE7B71 /* BarPlot.swift */,
-				3E2D6DB6331F4DE847BA9D62838146DF /* DotDrawingLayer.swift */,
-				AB6B8ECDA32F6A0B13DDF6C2397C5CBE /* DotPlot.swift */,
-				B08500294E12B3ED89B758EEFA0F4881 /* FillDrawingLayer.swift */,
-				4D3D9ED1DA9064EDA1B42DB772781321 /* GradientDrawingLayer.swift */,
-				9AB8519A38BABF09551F16F856C04CF0 /* GraphPoint.swift */,
-				C9F2C7CA3D9DD9049ED24BC7AD6E0768 /* GraphPointAnimation.swift */,
-				811FF21B81C307BB12DFE826EF6F104E /* LabelPool.swift */,
-				0281F385B1FCAC39203876EB7B71DD19 /* LineDrawingLayer.swift */,
-				31E6459EF405984E69BE6DFFE93FF640 /* LinePlot.swift */,
-				F8E64DBF3A53E08259BB691ADCF22D5D /* Plot.swift */,
-				78CC22FF8C25966633FA9C586BF99F5B /* ReferenceLineDrawingView.swift */,
-				160AA40B5B584792D41F325F3846C6D4 /* ReferenceLines.swift */,
-				C45E7C4508967B89B49CFAFCFBBB6A84 /* ScrollableGraphView.swift */,
-				0C0254DB2280404C0EAF416EC935ADBF /* ScrollableGraphViewDataSource.swift */,
-				9CF4C5FD541725455F933DB27CD19E53 /* ScrollableGraphViewDrawingDelegate.swift */,
-				60428C7B2E351656FD568D008370BB97 /* ScrollableGraphViewDrawingLayer.swift */,
-				D3F0739C8081905E82FD9D0D3F86CA18 /* Support Files */,
+				C48ED4C5B7579E1BC327E563714F08FB /* Keychain.swift */,
+				09301A0E514FB74D889C81FE87024F36 /* Support Files */,
 			);
-			name = ScrollableGraphView;
-			path = ScrollableGraphView;
+			name = KeychainAccess;
+			path = KeychainAccess;
 			sourceTree = "<group>";
 		};
-		5619FC777A5006563726C672293593B6 /* Products */ = {
+		5AAEB3A6BEFB28AA548C85E0D435A507 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess.framework */,
+				9258ECC23A4C8B0274C7A6DF69DDFE95 /* KRActivityIndicatorView.framework */,
+				1C33CB84138510317C9CFF8E19C47C23 /* KRProgressHUD.framework */,
 				F013FBD711743349C28EB0FBF3F8FF94 /* Pods_SkillsMap.framework */,
 				0AF018CD89B79D17DAB0CE3510111144 /* RadioGroup.framework */,
 				99BAAECDB80FFA415E210CEC6619A454 /* ScrollableGraphView.framework */,
 				B76CD9F952582A6A4387D799501B3950 /* SweeterSwift.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5F4695CAFE990DEC66C59B9E3281EF1D /* SweeterSwift */ = {
+			isa = PBXGroup;
+			children = (
+				78F4861E2E16E535B150CDB3A25889D2 /* Bundle+Sweeter.swift */,
+				639D77E3B05752C7F172EE5055328A0C /* Codable+Sweeter.swift */,
+				ED67F138B072C26E7A0E6F4D4FC4265E /* DateFormatter+Sweeter.swift */,
+				5EE521ED83319D168B578AB2CE22D6F9 /* NSAttributedString+Sweeter.swift */,
+				159D1432EB4B82C8F0F9D0D7266C6790 /* NSManagedObjectContext+Sweeter.swift */,
+				CEAB0CF07DA415C957444E65C39B383A /* NSObject+Sweeter.swift */,
+				153D5C0AF37F498E7991356C9C7BCD95 /* String+Sweeter.swift */,
+				D5D0CC28EC41BA6A356751BD5745D18C /* Swift+Sweeter.swift */,
+				BD443FB23FF1B98566DA69A82D355CB0 /* TimeInterval+Sweeter.swift */,
+				F19597A83516F94AD42429AB163E27C9 /* UIApplication+Sweeter.swift */,
+				5B8DC5313D57CDB736F5797029F61C94 /* UIStackView+Sweeter.swift */,
+				D86D065D774879E4DBF2A4445F99EF3D /* UITextView+Sweeter.swift */,
+				262E3F3ED77E90321DD869477CF9D458 /* UIView+Sweeter.swift */,
+				365BFA8E12C0DB05D995EFA58684E05E /* UIViewController+Sweeter.swift */,
+				7C7E7BBD25AA6A5741BF8003F37541BB /* Support Files */,
+			);
+			name = SweeterSwift;
+			path = SweeterSwift;
+			sourceTree = "<group>";
+		};
+		6051867222E100EC03199B4F83B45672 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCB902FE8A94B9B1DD01816485498476 /* RadioGroup.modulemap */,
+				291E866FEE7110C829C5586FBA5AC90C /* RadioGroup.xcconfig */,
+				BCA17608DA2D5486DBC7E0E342B5FE6C /* RadioGroup-dummy.m */,
+				2E3C4A88BC8E94795610BD909EC25BB0 /* RadioGroup-Info.plist */,
+				6F10A6E3BEDD354778A7607DD3B51281 /* RadioGroup-prefix.pch */,
+				755D6CD5B609D060B67D8AF8CAAA187C /* RadioGroup-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RadioGroup";
+			sourceTree = "<group>";
+		};
+		74EA5647B78F6A036AEA306514C83964 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B86B9BD50543152F15029273842C3D39 /* KRActivityIndicatorView.modulemap */,
+				F36F58C3BCFF94C7E6F4C06050A5DED4 /* KRActivityIndicatorView.xcconfig */,
+				5AF5EE9777870D8D1E4E493C2D9998A8 /* KRActivityIndicatorView-dummy.m */,
+				F6F925AD6D9A5F687A886C192AE036BF /* KRActivityIndicatorView-Info.plist */,
+				6C0FBD325A01BE1F691181D1DE5D64C2 /* KRActivityIndicatorView-prefix.pch */,
+				BB61F2E764087E13F7E7AB4D9AA54D33 /* KRActivityIndicatorView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KRActivityIndicatorView";
+			sourceTree = "<group>";
+		};
+		75C4E3F13E8492A9F576A9879F11F297 /* KRActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				FA62CED8DB37E475544FE20B84595236 /* Extensions.swift */,
+				0B04A1F9ABA4DC75451988C9254CE8D6 /* KRActivityIndicatorView.swift */,
+				7C8391C958F93EB3CF9E045DA4880929 /* KRActivityIndicatorViewStyle.swift */,
+				74EA5647B78F6A036AEA306514C83964 /* Support Files */,
+			);
+			name = KRActivityIndicatorView;
+			path = KRActivityIndicatorView;
 			sourceTree = "<group>";
 		};
 		7A51DEFD4552761AD29576D2E7835641 /* Targets Support Files */ = {
@@ -328,73 +429,91 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7C0E1EC8966F72983D0F1B0EE02035E5 /* Support Files */ = {
+		7B940BDEDF14023B8051BA13460B5549 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8A3ECCF850E87B0857491E16E066FED3 /* RadioGroup.modulemap */,
-				1FB4D16BB0276D009859B5F55082FFB1 /* RadioGroup.xcconfig */,
-				D6143AA69CACA8E45E2562B8515C4B5E /* RadioGroup-dummy.m */,
-				C10B58A4047BDCC1AEE6F194B5604D78 /* RadioGroup-Info.plist */,
-				B55D74A96985B768B94047552BB122BD /* RadioGroup-prefix.pch */,
-				A963B12A339C23030DA146CC71DDCBA9 /* RadioGroup-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/RadioGroup";
-			sourceTree = "<group>";
-		};
-		848FD9BC8F9B680A4F01F97987E7D678 /* KeychainAccess */ = {
-			isa = PBXGroup;
-			children = (
-				C0236231A5F7F81ACF06BC5A0662C423 /* Keychain.swift */,
-				0B3C28D9C44A94B03B336938781A404A /* Support Files */,
-			);
-			name = KeychainAccess;
-			path = KeychainAccess;
-			sourceTree = "<group>";
-		};
-		AC7E9BE5F7AEC90B1C090DF6B1A308E9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				848FD9BC8F9B680A4F01F97987E7D678 /* KeychainAccess */,
-				E393FA7C2D6629195B7F7EC6D1655077 /* RadioGroup */,
-				4F3FB6AC2A1E179C4E44422C44F0D16F /* ScrollableGraphView */,
-				3C240D6665F81C4D00D1826495199E5B /* SweeterSwift */,
+				486D42E60985CB24EDF794E50C7186D9 /* KeychainAccess */,
+				75C4E3F13E8492A9F576A9879F11F297 /* KRActivityIndicatorView */,
+				88B5B9BC88BFFA30840FDC737ADAF916 /* KRProgressHUD */,
+				AF7DEE9F92138ED3758A0F7AB803845B /* RadioGroup */,
+				E6EA937B183FA32227C8F77FBDCAF050 /* ScrollableGraphView */,
+				5F4695CAFE990DEC66C59B9E3281EF1D /* SweeterSwift */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C7E7BBD25AA6A5741BF8003F37541BB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF2FBF2D7E1361B64EC3C31806934416 /* SweeterSwift.modulemap */,
+				4F784DFFFF58050E256F433ABEE3717E /* SweeterSwift.xcconfig */,
+				B7AF7E7FFE1E0CA6437D884679991FF8 /* SweeterSwift-dummy.m */,
+				7DFCA7EF91742077B9F2403D6B289FD5 /* SweeterSwift-Info.plist */,
+				09B35B099D4C48D866101C29B9C83C6B /* SweeterSwift-prefix.pch */,
+				E34D980E1B0C5DBA83C9AAE2578404B7 /* SweeterSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SweeterSwift";
+			sourceTree = "<group>";
+		};
+		88B5B9BC88BFFA30840FDC737ADAF916 /* KRProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				722E50017540C4B5E2DAF81F0367E5D3 /* Extensions.swift */,
+				7C7B26B38E42EECDCB2737056F24C159 /* InnerKRProgressHUD.swift */,
+				D31CA72463555034027A9637275034F4 /* KRProgressHUD.swift */,
+				7559FBF4FF3912AB3CED9CF419B76C16 /* KRProgressHUDIconType.swift */,
+				22AD4A3FB94EA6FC22953166B895FBFB /* KRProgressHUDViewController.swift */,
+				AD5FF05879E5D0B61623296E16F81F6A /* Support Files */,
+			);
+			name = KRProgressHUD;
+			path = KRProgressHUD;
+			sourceTree = "<group>";
+		};
+		AA2DAA93302A6833AF5046697F9BDB4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D69BAEE8C1BE32071BA971C87402DF19 /* KRActivityIndicatorView.framework */,
+				5D9891412D635B54D832BC1D97EE4961 /* SweeterSwift.framework */,
+				1687ED7FAB92D26E0F5B7631DB1E096F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD5FF05879E5D0B61623296E16F81F6A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94C1315A5CA7A22252DDC1205AD13925 /* KRProgressHUD.modulemap */,
+				7D15D65E2AD4ED94300D122C1134642F /* KRProgressHUD.xcconfig */,
+				ABEDCCA0F027CF5E2EC09AFBB7330CF1 /* KRProgressHUD-dummy.m */,
+				AAF24930CF4CA55B373F0045867F9D32 /* KRProgressHUD-Info.plist */,
+				4050A8609EDBE535C3D1E09FD20EA82A /* KRProgressHUD-prefix.pch */,
+				4C1E8A99BE01370B51BCF5AE72646A6E /* KRProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KRProgressHUD";
+			sourceTree = "<group>";
+		};
+		AF7DEE9F92138ED3758A0F7AB803845B /* RadioGroup */ = {
+			isa = PBXGroup;
+			children = (
+				43F13D088830E92AEE0321DF9D6A4779 /* RadioButton.swift */,
+				4BDD498284BF7AB96F28AA9C133170F7 /* RadioGroup.swift */,
+				6051867222E100EC03199B4F83B45672 /* Support Files */,
+			);
+			name = RadioGroup;
+			path = RadioGroup;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D2A4E4C2B9AB233C330C04365A549B28 /* Frameworks */,
-				AC7E9BE5F7AEC90B1C090DF6B1A308E9 /* Pods */,
-				5619FC777A5006563726C672293593B6 /* Products */,
+				AA2DAA93302A6833AF5046697F9BDB4F /* Frameworks */,
+				7B940BDEDF14023B8051BA13460B5549 /* Pods */,
+				5AAEB3A6BEFB28AA548C85E0D435A507 /* Products */,
 				7A51DEFD4552761AD29576D2E7835641 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D2A4E4C2B9AB233C330C04365A549B28 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				51C0A5590195FEA5C460F2CB16D3DED3 /* SweeterSwift.framework */,
-				341E83D6AEAC7081E4AB039AA2BC0FAA /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D3F0739C8081905E82FD9D0D3F86CA18 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				19E70515C6303B86DDB7D2ECF4644BE5 /* ScrollableGraphView.modulemap */,
-				7F040DF42A10514BA76F0EA58C216753 /* ScrollableGraphView.xcconfig */,
-				5E15CE2370522E3B60C0C8A8C76952C5 /* ScrollableGraphView-dummy.m */,
-				264C1156B1C3E78927EFF9375C673257 /* ScrollableGraphView-Info.plist */,
-				6E84B51EC6ADB7FCD3702C1A09F01263 /* ScrollableGraphView-prefix.pch */,
-				611F629A59975F9971C6183687679481 /* ScrollableGraphView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ScrollableGraphView";
 			sourceTree = "<group>";
 		};
 		DCDF33985107D077368F49264C42845C /* Pods-SkillsMap */ = {
@@ -414,15 +533,31 @@
 			path = "Target Support Files/Pods-SkillsMap";
 			sourceTree = "<group>";
 		};
-		E393FA7C2D6629195B7F7EC6D1655077 /* RadioGroup */ = {
+		E6EA937B183FA32227C8F77FBDCAF050 /* ScrollableGraphView */ = {
 			isa = PBXGroup;
 			children = (
-				6F3CF4D4B0AEA5120369BFEAE8BA98F9 /* RadioButton.swift */,
-				CB5ABB2888E590A39D25EDF598D59C15 /* RadioGroup.swift */,
-				7C0E1EC8966F72983D0F1B0EE02035E5 /* Support Files */,
+				F334C5D75125A047DC4A019CE64EEC33 /* BarDrawingLayer.swift */,
+				D23B48E120C6EBFA24450834C3D66E7C /* BarPlot.swift */,
+				2C44D934097EF80CB72EEA67408786AB /* DotDrawingLayer.swift */,
+				B0A2186CAB36E35F0DCF262A031A0189 /* DotPlot.swift */,
+				C3040AFD6D085D7993C021766C9BDDA6 /* FillDrawingLayer.swift */,
+				DE086D2E2878AF326829020798015AC2 /* GradientDrawingLayer.swift */,
+				C091BB25210B3144B38CF7136AEF5BF1 /* GraphPoint.swift */,
+				AC5D596359D1197B4983BECA67D987F1 /* GraphPointAnimation.swift */,
+				E5469C2B66D82DB75F1660D767D58482 /* LabelPool.swift */,
+				B8EFC2A72A9F0CF818CF787E69BC3E48 /* LineDrawingLayer.swift */,
+				6E621C2E08E42383FE9C5688239502A7 /* LinePlot.swift */,
+				9E36D28482048410135002399E99D178 /* Plot.swift */,
+				20A570D8E916B3051896CA8A96B8944B /* ReferenceLineDrawingView.swift */,
+				6065D057F8BE0264DB5C4EB8541A9392 /* ReferenceLines.swift */,
+				A91C9B5D680D8DF2A0923ADBD6F53D38 /* ScrollableGraphView.swift */,
+				DB06E3AC924D29B1AA71485DE807BC09 /* ScrollableGraphViewDataSource.swift */,
+				0A058DA46A453BF917D193C42AB1912D /* ScrollableGraphViewDrawingDelegate.swift */,
+				16579E5004F2FBB3A866D25461971480 /* ScrollableGraphViewDrawingLayer.swift */,
+				349B2B2A59895A55E647C2EAE259FF5A /* Support Files */,
 			);
-			name = RadioGroup;
-			path = RadioGroup;
+			name = ScrollableGraphView;
+			path = ScrollableGraphView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,6 +568,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				571C484E3AB41DC4929743B795118159 /* RadioGroup-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23302D32BD74494369EBFC012BCC6C19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9718C43F69A288F5BD246FB74FA3C20 /* Pods-SkillsMap-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,11 +595,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4AE6DA1CA4663C20D54A97A8EB8B9908 /* Headers */ = {
+		6BD43ABFC88B856E75E8A5C8CFABE5DC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D5A5F365D4B2237D8A2FE2114A283F1 /* Pods-SkillsMap-umbrella.h in Headers */,
+				B08BE67E2FAACEB75B2642DEA72EBAEC /* KRActivityIndicatorView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +608,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDBC90196266BDB954BC5D6B666CD41A /* SweeterSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFE3523D09A22DD54E516054154D5492 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B31EDCC1ACA87CD0B5A8EDACDF1D03 /* KRProgressHUD-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +659,24 @@
 			productReference = 99BAAECDB80FFA415E210CEC6619A454 /* ScrollableGraphView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		4F7A1E5A05AF87570E2873C5F725E2CB /* KRActivityIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8682F0722472CE2AF5A0A6F635D06841 /* Build configuration list for PBXNativeTarget "KRActivityIndicatorView" */;
+			buildPhases = (
+				6BD43ABFC88B856E75E8A5C8CFABE5DC /* Headers */,
+				34AB59E1B199F146F95D49B435D6526C /* Sources */,
+				8D1A63B255B97C79B781E519412FE23E /* Frameworks */,
+				B6842BCBA42C0E8EC65DA53F1F2D3AAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRActivityIndicatorView;
+			productName = KRActivityIndicatorView;
+			productReference = 9258ECC23A4C8B0274C7A6DF69DDFE95 /* KRActivityIndicatorView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		615C831BCE925ED486B225B87E44926D /* KeychainAccess */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BEE926243448802ACA6F07A75D9C025 /* Build configuration list for PBXNativeTarget "KeychainAccess" */;
@@ -544,22 +713,43 @@
 			productReference = B76CD9F952582A6A4387D799501B3950 /* SweeterSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F294B63F7CB48049C9DE54ED385DC1C7 /* Pods-SkillsMap */ = {
+		BA4681533D6AA601F9C9E2A116B7472C /* KRProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A009BA10B3DE96CD63C1A6661A7F5231 /* Build configuration list for PBXNativeTarget "Pods-SkillsMap" */;
+			buildConfigurationList = E758551590353890ECD3BA8D57CF2069 /* Build configuration list for PBXNativeTarget "KRProgressHUD" */;
 			buildPhases = (
-				4AE6DA1CA4663C20D54A97A8EB8B9908 /* Headers */,
-				018F98B407CF63F237D9565F50A18F92 /* Sources */,
-				4865092D2B566B87BFDF0AD907D18DF6 /* Frameworks */,
-				93F3D32691E7C8D4BB9B443B2997B07C /* Resources */,
+				DFE3523D09A22DD54E516054154D5492 /* Headers */,
+				CDAB7CB60BEBCC2095F0B95F6C75BD33 /* Sources */,
+				14E074A45A6B1D44B044DC67B5FD56CF /* Frameworks */,
+				D12086AA025371CC2799425212F28A8E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				24C1CA0B6EBEF1EFB685F60C24331317 /* PBXTargetDependency */,
-				2C986C0AC9C151B4563602212CDA7533 /* PBXTargetDependency */,
-				A95099A8D7408B84216B51E80CFB6D09 /* PBXTargetDependency */,
-				8EE52A60A00CB24288D2DCF422A4DA61 /* PBXTargetDependency */,
+				A79D066A7116600994D0A50A77ECB986 /* PBXTargetDependency */,
+			);
+			name = KRProgressHUD;
+			productName = KRProgressHUD;
+			productReference = 1C33CB84138510317C9CFF8E19C47C23 /* KRProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F294B63F7CB48049C9DE54ED385DC1C7 /* Pods-SkillsMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF73BF888E2DF4260BC6D4E4CD77758 /* Build configuration list for PBXNativeTarget "Pods-SkillsMap" */;
+			buildPhases = (
+				23302D32BD74494369EBFC012BCC6C19 /* Headers */,
+				9F78826EDB4E0F40B690A56BA8B03A92 /* Sources */,
+				FA43128EEFBEB4BFCF8BFEA0F4AC6820 /* Frameworks */,
+				64CA57DCC07C71BA62210FFFC08F3760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466DC2AD091BA4CD3C853FEE8B32AA6C /* PBXTargetDependency */,
+				561C0889FD669ABA553889C96E5150BC /* PBXTargetDependency */,
+				4F44A0E3BB44EBDC71B80AE589DC46ED /* PBXTargetDependency */,
+				BA5BE33BF44E93B6B45AD77C124498A9 /* PBXTargetDependency */,
+				50DF58BEFE9D923C5FFBB6A5434C5968 /* PBXTargetDependency */,
+				840221002A75D2FE74F1F398C60567F8 /* PBXTargetDependency */,
 			);
 			name = "Pods-SkillsMap";
 			productName = "Pods-SkillsMap";
@@ -584,11 +774,13 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5619FC777A5006563726C672293593B6 /* Products */;
+			productRefGroup = 5AAEB3A6BEFB28AA548C85E0D435A507 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				615C831BCE925ED486B225B87E44926D /* KeychainAccess */,
+				4F7A1E5A05AF87570E2873C5F725E2CB /* KRActivityIndicatorView */,
+				BA4681533D6AA601F9C9E2A116B7472C /* KRProgressHUD */,
 				F294B63F7CB48049C9DE54ED385DC1C7 /* Pods-SkillsMap */,
 				0140FFF6B6054D782B7D333CDD4E26D5 /* RadioGroup */,
 				286B8AB3D8EF21F4A7B079A55DDA5790 /* ScrollableGraphView */,
@@ -598,7 +790,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		93F3D32691E7C8D4BB9B443B2997B07C /* Resources */ = {
+		64CA57DCC07C71BA62210FFFC08F3760 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -612,7 +804,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B6842BCBA42C0E8EC65DA53F1F2D3AAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C4E36A31F0F05A785FA881674F917C7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12086AA025371CC2799425212F28A8E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -636,14 +842,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		018F98B407CF63F237D9565F50A18F92 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F34D7323590283A92F5915532EDECEDF /* Pods-SkillsMap-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		052BE6AC6898ABDB36FB6841952DA036 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -692,6 +890,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		34AB59E1B199F146F95D49B435D6526C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBA00C6A264C2E09CA73D144B38CB16A /* Extensions.swift in Sources */,
+				4A2D8E4BA4222581DB30A8693DD38882 /* KRActivityIndicatorView-dummy.m in Sources */,
+				8691040C4144FF67AF097D34E7B4075A /* KRActivityIndicatorView.swift in Sources */,
+				F64EAB10BAE213A7034C70C8CCAE2B44 /* KRActivityIndicatorViewStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6FECFC006D6E8F803A4907C66A239DCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -699,6 +908,14 @@
 				159588D87774219475E3F0CF2A92F5E1 /* RadioButton.swift in Sources */,
 				D752546B146AA4172B41599D23DF6F5D /* RadioGroup-dummy.m in Sources */,
 				CEA3EC15DC618FEF7E120C37C1D96E76 /* RadioGroup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F78826EDB4E0F40B690A56BA8B03A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540C19A8F3A5BC511A95732D0D3456E4 /* Pods-SkillsMap-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,26 +928,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CDAB7CB60BEBCC2095F0B95F6C75BD33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CC7BEAD7F982A0978939D804818C72 /* Extensions.swift in Sources */,
+				D0A665A78DA17DC6D4E13883245CAA3C /* InnerKRProgressHUD.swift in Sources */,
+				C218FE5D841254675FA809C980579D18 /* KRProgressHUD-dummy.m in Sources */,
+				EC070297716F78F774EA722F417DD787 /* KRProgressHUD.swift in Sources */,
+				6175AF685E0002FAA4CC678BE48A8C10 /* KRProgressHUDIconType.swift in Sources */,
+				F18FCAB8BC039DC8AC34B752FD1D7A42 /* KRProgressHUDViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		24C1CA0B6EBEF1EFB685F60C24331317 /* PBXTargetDependency */ = {
+		466DC2AD091BA4CD3C853FEE8B32AA6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KRActivityIndicatorView;
+			target = 4F7A1E5A05AF87570E2873C5F725E2CB /* KRActivityIndicatorView */;
+			targetProxy = 82822D77608B3E7C5CBE6D93BEB2AC7B /* PBXContainerItemProxy */;
+		};
+		4F44A0E3BB44EBDC71B80AE589DC46ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KeychainAccess;
 			target = 615C831BCE925ED486B225B87E44926D /* KeychainAccess */;
-			targetProxy = BAFAB5CC6B8031437631D72D99CCC99C /* PBXContainerItemProxy */;
+			targetProxy = 2D9C9D7FA1F6D11F55FE823C0ED51596 /* PBXContainerItemProxy */;
 		};
-		2C986C0AC9C151B4563602212CDA7533 /* PBXTargetDependency */ = {
+		50DF58BEFE9D923C5FFBB6A5434C5968 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = RadioGroup;
-			target = 0140FFF6B6054D782B7D333CDD4E26D5 /* RadioGroup */;
-			targetProxy = 1F8211EC5D672CAF001E114E231A70E3 /* PBXContainerItemProxy */;
+			name = ScrollableGraphView;
+			target = 286B8AB3D8EF21F4A7B079A55DDA5790 /* ScrollableGraphView */;
+			targetProxy = 43A2F711B226DDAFDFF5D55E717262C5 /* PBXContainerItemProxy */;
 		};
-		8EE52A60A00CB24288D2DCF422A4DA61 /* PBXTargetDependency */ = {
+		561C0889FD669ABA553889C96E5150BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KRProgressHUD;
+			target = BA4681533D6AA601F9C9E2A116B7472C /* KRProgressHUD */;
+			targetProxy = 692F18B1938500CFE0CB6BE285B07714 /* PBXContainerItemProxy */;
+		};
+		840221002A75D2FE74F1F398C60567F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SweeterSwift;
 			target = 6819F499159C87193DDD7D51504DD6C1 /* SweeterSwift */;
-			targetProxy = 46A40A34A636B2A9244F978C68C59C0E /* PBXContainerItemProxy */;
+			targetProxy = FEB8B1BF413948D5AB125FB22A44D7D2 /* PBXContainerItemProxy */;
 		};
 		94C137803F5F919A44609F84EE3237C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -738,15 +980,57 @@
 			target = 6819F499159C87193DDD7D51504DD6C1 /* SweeterSwift */;
 			targetProxy = EC139A382C070B4DE110335E7FD0C67D /* PBXContainerItemProxy */;
 		};
-		A95099A8D7408B84216B51E80CFB6D09 /* PBXTargetDependency */ = {
+		A79D066A7116600994D0A50A77ECB986 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ScrollableGraphView;
-			target = 286B8AB3D8EF21F4A7B079A55DDA5790 /* ScrollableGraphView */;
-			targetProxy = 6AB78D9A8FEAED16BE6B17E5726ACCBA /* PBXContainerItemProxy */;
+			name = KRActivityIndicatorView;
+			target = 4F7A1E5A05AF87570E2873C5F725E2CB /* KRActivityIndicatorView */;
+			targetProxy = 5F3A5DC7A94FF5FE690FD26A901C570F /* PBXContainerItemProxy */;
+		};
+		BA5BE33BF44E93B6B45AD77C124498A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RadioGroup;
+			target = 0140FFF6B6054D782B7D333CDD4E26D5 /* RadioGroup */;
+			targetProxy = 7168681C00825F8124ED602BFEA6D8D5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1932115FB043A9AB7243824F6A3B4C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36F58C3BCFF94C7E6F4C06050A5DED4 /* KRActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KRActivityIndicatorView/KRActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRActivityIndicatorView/KRActivityIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KRActivityIndicatorView/KRActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = KRActivityIndicatorView;
+				PRODUCT_NAME = KRActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -811,173 +1095,7 @@
 			};
 			name = Debug;
 		};
-		45293695F003AF5DCBA69464D33BD875 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C7E20855FCFF912F91151432703EBC6 /* KeychainAccess.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeychainAccess/KeychainAccess-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
-				PRODUCT_MODULE_NAME = KeychainAccess;
-				PRODUCT_NAME = KeychainAccess;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4C796A71C79AD64297E2274D87D327EA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F040DF42A10514BA76F0EA58C216753 /* ScrollableGraphView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ScrollableGraphView/ScrollableGraphView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ScrollableGraphView/ScrollableGraphView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ScrollableGraphView/ScrollableGraphView.modulemap";
-				PRODUCT_MODULE_NAME = ScrollableGraphView;
-				PRODUCT_NAME = ScrollableGraphView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4DA75E7852DB4E0050C4B7D9A3E0B8FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FB4D16BB0276D009859B5F55082FFB1 /* RadioGroup.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RadioGroup/RadioGroup-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RadioGroup/RadioGroup-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MODULEMAP_FILE = "Target Support Files/RadioGroup/RadioGroup.modulemap";
-				PRODUCT_MODULE_NAME = RadioGroup;
-				PRODUCT_NAME = RadioGroup;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5ECECD469FA7C9393AC52AA2264C7AF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FB4D16BB0276D009859B5F55082FFB1 /* RadioGroup.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RadioGroup/RadioGroup-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RadioGroup/RadioGroup-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MODULEMAP_FILE = "Target Support Files/RadioGroup/RadioGroup.modulemap";
-				PRODUCT_MODULE_NAME = RadioGroup;
-				PRODUCT_NAME = RadioGroup;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		636770599DD4D480E250C0834F1E857B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 623F3FD126E26B653AA73F12D954AEB6 /* SweeterSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SweeterSwift/SweeterSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SweeterSwift/SweeterSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SweeterSwift/SweeterSwift.modulemap";
-				PRODUCT_MODULE_NAME = SweeterSwift;
-				PRODUCT_NAME = SweeterSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8E0335C9462F4DA156A8EE4F8E7A5F72 /* Debug */ = {
+		31D83327613B037E59B6DEBC2C46683E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD08E62EFC1D552BE046C0F1F54AB126 /* Pods-SkillsMap.debug.xcconfig */;
 			buildSettings = {
@@ -1015,9 +1133,214 @@
 			};
 			name = Debug;
 		};
+		45293695F003AF5DCBA69464D33BD875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D90FB3C68DB708BA614DFE07F24A0C /* KeychainAccess.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/KeychainAccess-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
+				PRODUCT_MODULE_NAME = KeychainAccess;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C796A71C79AD64297E2274D87D327EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9301FB9B2AA7B3A3CBECD8802E1236 /* ScrollableGraphView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ScrollableGraphView/ScrollableGraphView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ScrollableGraphView/ScrollableGraphView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ScrollableGraphView/ScrollableGraphView.modulemap";
+				PRODUCT_MODULE_NAME = ScrollableGraphView;
+				PRODUCT_NAME = ScrollableGraphView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4DA75E7852DB4E0050C4B7D9A3E0B8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291E866FEE7110C829C5586FBA5AC90C /* RadioGroup.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RadioGroup/RadioGroup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RadioGroup/RadioGroup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = "Target Support Files/RadioGroup/RadioGroup.modulemap";
+				PRODUCT_MODULE_NAME = RadioGroup;
+				PRODUCT_NAME = RadioGroup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		559B8EA1D6FB481ADD29F3087CAC02B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB683446B162BBD028D3097C9F36E1F /* Pods-SkillsMap.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SkillsMap/Pods-SkillsMap-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SkillsMap/Pods-SkillsMap.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5ECECD469FA7C9393AC52AA2264C7AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291E866FEE7110C829C5586FBA5AC90C /* RadioGroup.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RadioGroup/RadioGroup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RadioGroup/RadioGroup-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = "Target Support Files/RadioGroup/RadioGroup.modulemap";
+				PRODUCT_MODULE_NAME = RadioGroup;
+				PRODUCT_NAME = RadioGroup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		636770599DD4D480E250C0834F1E857B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F784DFFFF58050E256F433ABEE3717E /* SweeterSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SweeterSwift/SweeterSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SweeterSwift/SweeterSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SweeterSwift/SweeterSwift.modulemap";
+				PRODUCT_MODULE_NAME = SweeterSwift;
+				PRODUCT_NAME = SweeterSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		989673F0C5C8C51E921EABC762B224D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F040DF42A10514BA76F0EA58C216753 /* ScrollableGraphView.xcconfig */;
+			baseConfigurationReference = 6D9301FB9B2AA7B3A3CBECD8802E1236 /* ScrollableGraphView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1050,6 +1373,76 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		A7EE82793DCF11C157BADBC06B9671B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D15D65E2AD4ED94300D122C1134642F /* KRProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KRProgressHUD/KRProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRProgressHUD/KRProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KRProgressHUD/KRProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = KRProgressHUD;
+				PRODUCT_NAME = KRProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA98579FA6EF4673E0ECD9EC54B09E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36F58C3BCFF94C7E6F4C06050A5DED4 /* KRActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KRActivityIndicatorView/KRActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRActivityIndicatorView/KRActivityIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KRActivityIndicatorView/KRActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = KRActivityIndicatorView;
+				PRODUCT_NAME = KRActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1111,12 +1504,10 @@
 			};
 			name = Release;
 		};
-		B204FF6B64DDB0DADA46F801DD69DE10 /* Release */ = {
+		E9FAD91531C675197BF51584011FEBB5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BB683446B162BBD028D3097C9F36E1F /* Pods-SkillsMap.release.xcconfig */;
+			baseConfigurationReference = 7D15D65E2AD4ED94300D122C1134642F /* KRProgressHUD.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1126,7 +1517,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SkillsMap/Pods-SkillsMap-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/KRProgressHUD/KRProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRProgressHUD/KRProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1134,15 +1526,13 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SkillsMap/Pods-SkillsMap.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/KRProgressHUD/KRProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = KRProgressHUD;
+				PRODUCT_NAME = KRProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1152,7 +1542,7 @@
 		};
 		FEA1F33EED75A8A61664CEE42A36AB1F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 623F3FD126E26B653AA73F12D954AEB6 /* SweeterSwift.xcconfig */;
+			baseConfigurationReference = 4F784DFFFF58050E256F433ABEE3717E /* SweeterSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1188,7 +1578,7 @@
 		};
 		FF3EC215E8144B4CBE1F2C8440716AA6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C7E20855FCFF912F91151432703EBC6 /* KeychainAccess.xcconfig */;
+			baseConfigurationReference = B9D90FB3C68DB708BA614DFE07F24A0C /* KeychainAccess.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1252,6 +1642,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8682F0722472CE2AF5A0A6F635D06841 /* Build configuration list for PBXNativeTarget "KRActivityIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA98579FA6EF4673E0ECD9EC54B09E18 /* Debug */,
+				1932115FB043A9AB7243824F6A3B4C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		874632168ECB508FBAD43520B086E8F6 /* Build configuration list for PBXNativeTarget "SweeterSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1261,11 +1660,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A009BA10B3DE96CD63C1A6661A7F5231 /* Build configuration list for PBXNativeTarget "Pods-SkillsMap" */ = {
+		9BF73BF888E2DF4260BC6D4E4CD77758 /* Build configuration list for PBXNativeTarget "Pods-SkillsMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E0335C9462F4DA156A8EE4F8E7A5F72 /* Debug */,
-				B204FF6B64DDB0DADA46F801DD69DE10 /* Release */,
+				31D83327613B037E59B6DEBC2C46683E /* Debug */,
+				559B8EA1D6FB481ADD29F3087CAC02B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E758551590353890ECD3BA8D57CF2069 /* Build configuration list for PBXNativeTarget "KRProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EE82793DCF11C157BADBC06B9671B6 /* Debug */,
+				E9FAD91531C675197BF51584011FEBB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

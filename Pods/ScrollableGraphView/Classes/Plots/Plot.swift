@@ -186,8 +186,8 @@ open class Plot {
             let value = data[dataPosition]
             
             let newPosition = graphViewDrawingDelegate.calculatePosition(atIndex: activatedPointIndex, value: value)
-            graphPoints[activatedPointIndex].x = newPosition.x
-            graphPoints[activatedPointIndex].y = newPosition.y
+            graphPoints[safe: activatedPointIndex]?.x = newPosition.x
+            graphPoints[safe: activatedPointIndex]?.y = newPosition.y
             
             index += 1
         }
@@ -228,7 +228,7 @@ open class Plot {
     }
     
     internal func graphPoint(forIndex index: Int) -> GraphPoint {
-        return graphPoints[index]
+        return graphPoints[safe: index] ?? GraphPoint()
     }
 }
 
@@ -245,3 +245,19 @@ open class Plot {
 
 
 
+extension Collection {
+
+    subscript(safe index: Index) -> Iterator.Element? {
+        get {
+            if indices.contains(index) {
+                return self[index]
+            }
+            return nil
+        }
+        set {
+            if index < endIndex, let value = newValue {
+                self[safe: index] = value
+            }
+        }
+    }
+}

@@ -11,6 +11,7 @@
 		0C1C34C4253A5A4C007F122A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1C34C3253A5A4C007F122A /* ViewController.swift */; };
 		0C1C34CC253A5A4D007F122A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1C34CB253A5A4D007F122A /* Assets.xcassets */; };
 		0C1C34CF253A5A4D007F122A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C1C34CD253A5A4D007F122A /* LaunchScreen.storyboard */; };
+		0C313E32253C634D004A1938 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C313E31253C634D004A1938 /* IntroViewController.swift */; };
 		0C35DA89253B2B7200A337BD /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C35DA88253B2B7200A337BD /* GraphView.swift */; };
 		0C35DA8D253B374D00A337BD /* GraphElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C35DA8C253B374D00A337BD /* GraphElementView.swift */; };
 		0C35DA90253B44DB00A337BD /* GraphRelationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C35DA8F253B44DB00A337BD /* GraphRelationView.swift */; };
@@ -44,6 +45,7 @@
 		0C1C34CB253A5A4D007F122A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C1C34CE253A5A4D007F122A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C1C34D0253A5A4D007F122A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C313E31253C634D004A1938 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		0C35DA88253B2B7200A337BD /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 		0C35DA8C253B374D00A337BD /* GraphElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphElementView.swift; sourceTree = "<group>"; };
 		0C35DA8F253B44DB00A337BD /* GraphRelationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphRelationView.swift; sourceTree = "<group>"; };
@@ -107,8 +109,10 @@
 			children = (
 				0C1C34BF253A5A4C007F122A /* AppDelegate.swift */,
 				0C1C34C3253A5A4C007F122A /* ViewController.swift */,
-				0CA5CECE253C2E2D00687E23 /* TestView.swift */,
 				0C41F7F6253C259F008D7854 /* PrepareTestViewController.swift */,
+				0CA5CECE253C2E2D00687E23 /* TestView.swift */,
+				0C313E31253C634D004A1938 /* IntroViewController.swift */,
+				0C313E2F253C53C3004A1938 /* Services */,
 				0C35DA93253B67D400A337BD /* Views */,
 				0CFC7391253AE9D000AD488E /* Models */,
 				0C35DA92253B67C700A337BD /* Extensions */,
@@ -135,6 +139,13 @@
 				0C1C34CD253A5A4D007F122A /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		0C313E2F253C53C3004A1938 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		0C35DA87253B2B5800A337BD /* GraphView */ = {
@@ -357,6 +368,7 @@
 				0C41F7A2253B9D9D008D7854 /* ChartView.swift in Sources */,
 				0C41F7F3253C1C1B008D7854 /* Collection+Safe.swift in Sources */,
 				0CFC73A3253AF39400AD488E /* GraphBuilder.swift in Sources */,
+				0C313E32253C634D004A1938 /* IntroViewController.swift in Sources */,
 				0C41F7E8253BD15F008D7854 /* Rate.swift in Sources */,
 				0CFC739A253AEC2700AD488E /* Answer.swift in Sources */,
 				0C41F7F7253C259F008D7854 /* PrepareTestViewController.swift in Sources */,
@@ -505,6 +517,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = V5GGNVP9C6;
 				INFOPLIST_FILE = SkillsMap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -527,6 +540,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = V5GGNVP9C6;
 				INFOPLIST_FILE = SkillsMap/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;

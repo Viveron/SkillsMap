@@ -68,6 +68,8 @@ class TestView: UIView {
 
         addSubview(titleLabel)
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
+        titleLabel.setContentCompressionResistancePriority(.required, for: .vertical)
+        titleLabel.setContentCompressionResistancePriority(.required, for: .horizontal)
         titleLabel.topAnchor.constraint(equalTo: numberLabel.bottomAnchor, constant: 12).isActive = true
         titleLabel.leftAnchor.constraint(equalTo: leftAnchor, constant: 15).isActive = true
         titleLabel.rightAnchor.constraint(equalTo: rightAnchor, constant: -15).isActive = true

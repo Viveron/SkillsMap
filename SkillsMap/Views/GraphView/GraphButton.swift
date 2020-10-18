@@ -43,15 +43,6 @@ final class GraphButton: UIButton {
         semanticContentAttribute = .forceRightToLeft
         imageEdgeInsets = UIEdgeInsets(top: 0, left: 7, bottom: 0, right: 0)
 
-//        let size = CGSize(width: 10, height: 10)
-//        addSubview(badgeImageView)
-//        badgeImageView.translatesAutoresizingMaskIntoConstraints = false
-//        badgeImageView.topAnchor.constraint(equalTo: topAnchor, constant: -size.height/3).isActive = true
-//        badgeImageView.rightAnchor.constraint(equalTo: rightAnchor, constant: size.width/3).isActive = true
-//        badgeImageView.widthAnchor.constraint(equalToConstant: size.width).isActive = true
-//        badgeImageView.heightAnchor.constraint(equalToConstant: size.height).isActive = true
-//        badgeImageView.transform = .init(scaleX: 3, y: 3)
-
         updateStyle()
     }
 

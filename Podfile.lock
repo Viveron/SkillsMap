@@ -1,5 +1,8 @@
 PODS:
   - KeychainAccess (4.2.1)
+  - KRActivityIndicatorView (3.0.7)
+  - KRProgressHUD (3.4.7):
+    - KRActivityIndicatorView (= 3.0.7)
   - RadioGroup (1.3.3):
     - SweeterSwift
   - ScrollableGraphView (4.0.6)
@@ -7,22 +10,27 @@ PODS:
 
 DEPENDENCIES:
   - KeychainAccess
+  - KRProgressHUD
   - RadioGroup
   - ScrollableGraphView
 
 SPEC REPOS:
   trunk:
     - KeychainAccess
+    - KRActivityIndicatorView
+    - KRProgressHUD
     - RadioGroup
     - ScrollableGraphView
     - SweeterSwift
 
 SPEC CHECKSUMS:
   KeychainAccess: 9b07f665298d13c3a85881bd3171f6f49b8151c1
+  KRActivityIndicatorView: ad69e89c4ce40c986cf580595be4829dcad0e35a
+  KRProgressHUD: a248f0bc6c9c2aed40a37b76e03ffecc7f85c887
   RadioGroup: b84d3ef8a255f63bc7a601f487b3d32355f9f365
   ScrollableGraphView: 4af35d4ea9ecdec665d34a74da51da161ddff8ac
   SweeterSwift: 8a90cf3156f5a1b6f39785c479369a16633b5ea9
 
-PODFILE CHECKSUM: 4cd4182c4bf8d7c66d65ea940d50250bf62a1a63
+PODFILE CHECKSUM: e9acc3e22298e76b2694173c138e73b65e24c4c5
 
 COCOAPODS: 1.8.4

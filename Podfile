@@ -7,6 +7,7 @@ target 'SkillsMap' do
   pod 'KeychainAccess'
   pod 'ScrollableGraphView'
   pod 'RadioGroup'
+  pod "KRProgressHUD"
 end
 
 post_install do |installer|
