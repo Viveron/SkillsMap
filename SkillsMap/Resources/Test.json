@@ -1,0 +1,184 @@
+{
+	"id": "T-0",
+    "version": "1.0.0",
+	"name": "Test",
+	"root": "T-1",
+	"tree": [
+		{
+			"id": "T-1",
+			"name": "Test",
+			"weight": 0,
+			"leafs": [
+				"T-2",
+				"T-3",
+				"T-4"
+			],
+			"queries": null
+		},
+		{
+			"id": "T-2",
+			"name": "Mobile",
+			"weight": 0,
+			"leafs": [
+				"T-5",
+				"T-6"
+			],
+			"queries": null
+		},
+		{
+			"id": "T-3",
+			"name": "Web",
+			"weight": 1,
+			"leafs": [
+				"T-7",
+				"T-8",
+				"T-9"
+			],
+			"queries": null
+		},
+		{
+			"id": "T-4",
+			"name": "Desktop",
+			"weight": 2,
+			"leafs": [
+				"T-10",
+				"T-11"
+			],
+			"queries": null
+		},
+		{
+			"id": "T-5",
+			"name": "iOS",
+			"weight": 0,
+            "require": 1,
+			"leafs": null,
+			"queries": [
+				"T-q0",
+				"T-q1"
+			]
+		},
+		{
+			"id": "T-6",
+			"name": "Android",
+			"weight": 1,
+			"leafs": null,
+			"queries": [
+				"T-q0",
+				"T-q1"
+			]
+		},
+		{
+			"id": "T-7",
+			"name": "Safari",
+			"weight": 2,
+			"leafs": null,
+			"queries": [
+				"T-q0",
+				"T-q1"
+			]
+		},
+		{
+			"id": "T-8",
+			"name": "IE",
+			"weight": 3,
+			"leafs": null,
+			"queries": [
+				"T-q0",
+				"T-q1"
+			]
+		},
+		{
+			"id": "T-9",
+			"name": "Chrome",
+			"weight": 4,
+			"leafs": null,
+			"queries": [
+				"T-q0",
+				"T-q1"
+			]
+		},
+		{
+			"id": "T-10",
+			"name": "Windows",
+			"weight": 5,
+			"leafs": null,
+			"queries": [
+				"T-q0",
+				"T-q1"
+			]
+		},
+		{
+			"id": "T-11",
+			"name": "Linux",
+			"weight": 6,
+			"leafs": [
+				"T-12",
+				"T-13",
+				"T-14"
+			],
+			"queries": null
+		},
+		{
+			"id": "T-12",
+			"name": "MacOS",
+			"weight": 0,
+			"leafs": null,
+			"queries": [
+				"T-q0",
+				"T-q1"
+			]
+		},
+		{
+			"id": "T-13",
+			"name": "Debian",
+			"weight": 1,
+			"leafs": null,
+			"queries": [
+				"T-q0",
+				"T-q1"
+			]
+		},
+		{
+			"id": "T-14",
+			"name": "Ubuntu",
+			"weight": 2,
+			"leafs": null,
+			"queries": [
+				"T-q0",
+				"T-q1"
+			]
+		}
+	],
+	"query": [
+		{
+			"id": "T-q0",
+			"title": "Где лучшие тусовки?",
+			"answers": [
+				{
+					"id": "T-q0-0",
+					"title": "У нас в клубе."
+				},
+				{
+					"id": "T-q0-1",
+					"title": "У них в клубе."
+				}
+			],
+			"correct": "T-q0-0"
+		},
+		{
+			"id": "T-q1",
+			"title": "Продолжите фразу: `У попа была собока, он ее ...`",
+			"answers": [
+				{
+					"id": "T-q1-0",
+					"title": "Любил."
+				},
+				{
+					"id": "T-q1-1",
+					"title": "Кормил."
+				}
+			],
+			"correct": "T-q1-0"
+		}
+	]
+}
